@@ -66,12 +66,14 @@ class Game():
         self.white_turn = !self.white_turn
 
 
-g = Game()
-g.new_game()
-g.print_board()
-g.move(1,5)
-g.print_board()
-g.move(6,5)
-g.print_board()
-g.print_bar()
+# Tests
+if __name__ == "__main__":
+    g = Game()
+    g.new_game()
+    g.print_board()
+    g.move(1,5)
+    g.print_board()
+    g.move(6,5)
+    g.print_board()
+    g.print_bar()
 
